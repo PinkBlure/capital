@@ -1,0 +1,37 @@
+@import '../../styles/colors.css';
+
+body {
+    background-color: var(--color-background-dark);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--color-background-light);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 50vh;
+    border-radius: 10px;
+    border: 2px solid var(--color-brown-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 3.5rem;
+    margin: 1.5vh 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
